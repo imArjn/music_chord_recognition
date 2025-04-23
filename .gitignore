@@ -175,3 +175,7 @@ cython_debug/
 
 # Local virtual environment
 musicenv/
+
+# Don't accidentally add large dataset archives
+*.tar.gz
+*.tar.xz
