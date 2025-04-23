@@ -179,3 +179,11 @@ musicenv/
 # Don't accidentally add large dataset archives
 *.tar.gz
 *.tar.xz
+
+# Keep index file and annotations
+!data/raw/index.csv
+!data/raw/lab_files/
+!data/raw/lab_files/*
+
+# Ignore chroma subfolders (like 0003/, 0004/, etc.)
+data/raw/chroma_features/*/
